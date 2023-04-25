@@ -6,10 +6,10 @@ const logger = require('morgan');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
-const usersRouter = require('./routes/employees');
-const usersRouter = require('./routes/menuItems');
-const usersRouter = require('./routes/reservations');
-const usersRouter = require('./routes/tables');
+const employeeRouter = require('./routes/employees');
+const menuItemsRouter = require('./routes/menuItems');
+const reservationsRouter = require('./routes/reservations');
+const tablesRouter = require('./routes/tables');
 
 
 
